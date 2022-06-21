@@ -11,6 +11,24 @@
 </head>
 <body>
     <main>
+      <section>
+        <div id="acessibilidade" >
+          <img src="Imagens/imgacessiblidade0.png" onclick="fecha_abre1()"/>
+        </div>
+
+        <div id="acessibilidade-hid">
+          <div>
+            <img class="acess1"  src="Imagens/imgacessibilidade1.png" onclick="darkmodeLoginProfissional()"/>
+            <img class ="acess1-fake" src="Imagens/imgacessibilidadedark1.png" onclick="normalmodeLoginProfissional()"></div>
+          <img class="acess2" src="Imagens/imgacessibilidade2.png"/>
+          <img class="acess3" src="Imagens/imgacessibilidade3.png"/>
+          <img class="acess4" src="Imagens/imgacessibilidade4.png"/>
+          <img class="acess5" src="Imagens/imgacessibilidade5.png"/>
+          <img class="acess6" src="Imagens/imgacessibilidade6.png"  onclick="fecha_abre2()"/>
+        </div>
+        
+        </section>
+
         <section id="login">      
             <div class="login_img"><img src="Imagens/logo.png"/></div>
             <div class="novamente"><a id="novamente" href="index.html"><span class="spannovamente">NOVA</span>MENTE</a></div>
@@ -18,23 +36,7 @@
               <input type="text" placeholder="Usuário ou e-mail" id="user"/>
             </label>
             
-            <section>
-              <div id="acessibilidade" >
-                <img src="Imagens/imgacessiblidade0.png" onclick="fecha_abre1()"/>
-              </div>
-  
-              <div id="acessibilidade-hid">
-                <div>
-                  <img class="acess1"  src="Imagens/imgacessibilidade1.png" onclick="darkmodeLogin()"/>
-                  <img class ="acess1-fake" src="Imagens/imgacessibilidadedark1.png" onclick="normalmodeLogin()"></div>
-                <img class="acess2" src="Imagens/imgacessibilidade2.png"/>
-                <img class="acess3" src="Imagens/imgacessibilidade3.png"/>
-                <img class="acess4" src="Imagens/imgacessibilidade4.png"/>
-                <img class="acess5" src="Imagens/imgacessibilidade5.png"/>
-                <img class="acess6" src="Imagens/imgacessibilidade6.png"  onclick="fecha_abre2()"/>
-              </div>
-              
-              </section>
+           
             <label class="password">
               <input type="password" placeholder="Senha" id="password">
             </label>
@@ -61,7 +63,7 @@
         <section id="create-acc">
           <div id="fechar" onclick="fecha()">X</div>
             <img src="Imagens/logo.png">
-            <h2>Criar sua conta</h2>
+            <h2 class="h2cacc">Criar sua conta</h2>
             <label class="nome">
               <input type="text" placeholder="Nome"/>
             </label>
@@ -75,10 +77,10 @@
               <input type="text" placeholder="CPF" maxlength="11" minlength="11"/>
             </label>
             <label class="next1">
-              <input type="button" value="Próximo" onclick="next1()"/>
+              <input class="innext1" type="button" value="Próximo" onclick="next1()"/>
             </label>
             <div class="passos">
-              <img src="Imagens/passo1.png"/>
+              <img class="passo1" src="Imagens/passo1.png"/>
               <img src="Imagens/passo2.png" onclick="next1()"/>
               <img src="Imagens/passo3.png"/>
             </div>
@@ -131,16 +133,16 @@
             </label>
 
             <label class="back">
-              <input type="button" value="Voltar" onclick="back1()"/>
+              <input class="inback" type="button" value="Voltar" onclick="back1()"/>
             </label>
 
             <label class="next2">
-              <input type="button" value="Próximo" onclick="next2()"/>
+              <input class="innext2" type="button" value="Próximo" onclick="next2()"/>
             </label>
 
             <div class="passos2">
               <img src="Imagens/passo2.png" onclick="back1()"/>
-              <img src="Imagens/passo1.png"/>
+              <img class="passo1-2" src="Imagens/passo1.png"/>
               <img src="Imagens/passo3.png" onclick="next2()"/> 
             </div>
 
@@ -171,10 +173,10 @@
 
         <section id="documentos_psicologo">
           <div id="fechar" onclick="fecha()">X</div>
-          <h2>Documentos de comprovação</h2>
+          <h2 class="ddc">Documentos de comprovação</h2>
 
           <div class="documento1">
-            <div class="h3-1"><h3>1. Diploma do curso de psicologia:</h3></div>
+            <div class="h3-1"><h3 class="estiloh3js-1">1. Diploma do curso de psicologia:</h3></div>
             <div class="branca1">
               <br><br>
               <div class="box">
@@ -185,7 +187,7 @@
           </div>
 
           <div class="documento2">
-            <div class="h3-2"><h3>2. Documento de inscrição no CRP:</h3></div>
+            <div class="h3-2"><h3 class="estiloh3js-2">2. Documento de inscrição no CRP:</h3></div>
             <div class="branca2">
               <br><br>
               <div class="box">
@@ -196,7 +198,7 @@
           </div>
 
           <div class="documento3">
-            <div class="h3-3"><h3>3. RG (frente e verso):</h3></div>
+            <div class="h3-3"><h3 class="estiloh3js-3">3. RG (frente e verso):</h3></div>
             <div class="branca3">
               <br><br>
               <div class="box">
@@ -207,7 +209,7 @@
           </div>
 
           <div class="documento4">
-            <div class="h3-4"><h3>4. CPF:</h3></div>
+            <div class="h3-4"><h3 class="estiloh3js-4">4. CPF:</h3></div>
             <div class="branca4">
               <br><br>
               <div class="box">
@@ -218,7 +220,7 @@
           </div>
 
           <div class="documento5">
-            <div class="h3-5"><h3>5. Foto recente de rosto:</h3></div>
+            <div class="h3-5"><h3 class="estiloh3js-5">5. Foto recente de rosto:</h3></div>
             <div class="branca5">
               <br><br>
               <div class="box">
@@ -229,21 +231,20 @@
           </div>
 
           <label class="back">
-            <input type="button" value="Voltar" onclick="back2()"/>
+            <input class="inback2" type="button" value="Voltar" onclick="back2()"/>
           </label>
 
           <label class="done">
-            <input type="submit" value="Concluído" />
+            <input class="indone" type="submit" value="Concluído" />
           </label>
 
           <div class="passos3">
             <img src="Imagens/passo2.png" onclick="back1()"/>
             <img src="Imagens/passo3.png" onclick="back2()"/>
-            <img src="Imagens/passo1.png"/>
+            <img class="passo1-3" src="Imagens/passo1.png"/>
           </div>
 
         </section>
-        
        
     </main>
     <script src="custom-file-input.js"></script>
