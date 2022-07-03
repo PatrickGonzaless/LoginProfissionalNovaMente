@@ -352,7 +352,7 @@ body{
       width: 65%;
       margin: auto;
       margin-top: -290px;
-      height: 760px;
+      height: 850px;
       background-color: #F0F0F0;
       border-radius: 20px;
       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
@@ -366,81 +366,26 @@ body{
       color: #9D6BFF;
     }
 
-    .h2-2{
-      font-family: Inter;
-      font-weight: 100;
-      margin-left: 10.5%;
-      color: #585858;
-      font-size: 22px;
-      margin-top: 30px;
-      float: left;
-    }
-
     .wrapper{
       margin-top: 35px;
-      margin-left: 60%;
     }
 
-    .form-group{
-      float: left; 
-      margin-right: 8%;
+    .cargo{
+      display: block;
+      margin-top: 20px;
     }
 
-    .form-group, .form-group2{
-      display: flex;
-      align-items: center;
-    }
-
-    .form-group label{
-      padding-left:10px;
-    }
-
-    .form-group2 label{
-      padding-left:10px;
-    }
-
-    .form-group2{
-      float: left;
-    }
-
-    .form-group span{
-      font-family: Inter;
-      font-size: 18px;
-    }
-
-    .form-group2{
-      font-family: Inter;
-      font-size: 18px;
-    }
-
-    .radio{
-      appearance: none;
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      background-color: #FFF;
-      border: 1px solid #585858;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .radio:before{
-      position: absolute;
-      content: '';
-      height: 12.5px;
-      width: 12.5px;
-      background: #585858;
-      border-radius:50%;
-      opacity: 0;
-    }
-
-    .radio:checked:before{
-      opacity: 1;
+    .cargo input{
+      width: 78.5%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
     }
 
     input#CEP{
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     .cep input{
@@ -528,6 +473,20 @@ body{
 
     .telefone input{
       width: 78.5%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+    }
+
+    .crp-crm{
+      display: block;
+      margin-top: 20px;
+    }
+
+    .crp-crm input{
+      width: 38.5%;
       height: 50px;
       border-radius: 10px;
       border: 1px solid #575757;
@@ -995,6 +954,9 @@ body{
     
   }
 
+
+
+
   @media only screen and (min-width:768px){
     @media only screen and (max-width:1040px){
 
@@ -1019,6 +981,10 @@ body{
       }
 
     }}
+
+    
+
+ 
 
   @media only screen and (min-width:240px){
     @media only screen and (max-width:1023px){
@@ -1106,8 +1072,31 @@ body{
         font-size: 20px;
     }
 
+    #acessibilidade{
+      width: 6vw;
+    }
+
+    #acessibilidade-hid{
+      width: 6vw;
+    }
+
     }
   }
+
+  @media only screen and (min-width:375px){
+    @media only screen and (max-width:659px){
+
+      #acessiblidade-hid{
+        width: 11vw;
+      }
+
+      #acessibilidade{
+        width: 10vw;
+      }
+    }
+  }
+
+
 
   @media only screen and (min-width:320px){
     @media only screen and (max-width:659px){
@@ -1164,8 +1153,37 @@ body{
       font-size: 15px;
       margin-left: -4vw;
     }
+
     }
   }
+
+  
+
+ 
+  @media only screen and (min-width:425px){
+    @media only screen and (max-width:659px){
+      
+      #acessibilidade{
+        width: 10vw;
+      }
+
+      #acessibilidade-hid{
+        width: 10.5vw;
+      }
+
+    }
+  }
+
+  @media only screen and (min-width:375px){
+    @media only screen and (max-width:659px){
+
+      body{
+        background-image: none;
+      }
+
+    }
+  }
+
 
     @media only screen and (min-width:320px){
       @media only screen and (max-width:1040px){
@@ -1186,7 +1204,7 @@ body{
         #dados_pessoais{
           margin-top: 10vh;
           width: 90vw;
-          height: 770px;
+          height: 855px;
         }
 
         .back input{
@@ -1212,11 +1230,3 @@ body{
         }
 
       }}
-
-      @media only screen and (min-width:425px){
-        @media only screen and (max-width:1040px){
-          #documentos_psicologo h2{
-              font-size: 20px;
-          }
-
-        }}
