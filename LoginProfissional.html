@@ -82,7 +82,7 @@
             <div class="passos">
               <img class="passo1" src="Imagens/passo1.png"/>
               <img src="Imagens/passo2.png" onclick="next1()"/>
-              <img src="Imagens/passo3.png"/>
+              <img src="Imagens/passo3.png" onclick="next3()"/> 
             </div>
         </section>
 
@@ -90,16 +90,10 @@
           <div id="fechar" onclick="fecha()">X</div>
           <img src="Imagens/logo.png">
           <h2 class="h2-1">Dados Pessoais:</h2>
-          <h2 class="h2-2">Eu sou:</h3>
 
             <div class="wrapper">
-              <div class="form-group">
-                  <input class="radio" name="theradio" id="radio2" type="radio">
-                  <label for="radio2"><span>Psicólogo</span></label>
-              </div>
-              <div class="form-group2">
-                  <input class="radio" name="theradio" id="radio1" type="radio">
-                  <label for="radio1"><span>Psiquiatra</span></label>
+              <div class="cargo">
+                  <input type="text" placeholder="Digite seu cargo..."/>
               </div>
            </div>
 
@@ -130,6 +124,11 @@
 
             <label class="telefone">
               <input type="text" placeholder="Telefone"/> 
+            </label>
+
+            <label class="crp-crm">
+              <input type="text" placeholder="CRP"/>
+              <input type="text" placeholder="CRM"/>
             </label>
 
             <label class="back">
@@ -245,6 +244,7 @@
           </div>
 
         </section>
+        
        
     </main>
     <script src="custom-file-input.js"></script>
